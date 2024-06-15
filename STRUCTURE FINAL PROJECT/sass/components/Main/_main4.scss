@@ -1,0 +1,42 @@
+main{
+
+    .list1{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 200px;
+        gap: 70px;
+
+        ul{
+            display: flex;
+            gap: 60px;
+
+            li{
+                color: #fff;
+                font-size: 48px;
+                margin-top: 30px;
+            }
+            h1{
+                color: #fff;
+                font-size: 48px;
+                margin-right: 70px;
+            }
+
+            img{
+                cursor: pointer;
+                 
+
+            }
+
+            img:hover{
+                transform: scale(1.1);
+                filter:
+                drop-shadow(0 0 20px #00c5ff);
+
+            }
+        }
+        
+
+    }
+}
+

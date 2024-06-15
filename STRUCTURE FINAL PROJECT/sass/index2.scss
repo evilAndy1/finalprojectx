@@ -1,0 +1,12 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"); // стороннее обнуление
+@import "./utils/root"; // группировка стилей (mixin, root)
+@import "./utils/App"; // собственное обнуление
+@import"./components/Main/main2";
+
+html,
+body{
+    background-color: var(--bg-color-1);
+    width: 100%;
+    font-family: aire;
+    
+}

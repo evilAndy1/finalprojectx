@@ -1,0 +1,33 @@
+footer{
+    width: 100%;
+   
+
+    background-color: var(--bg-color-3);
+
+    .list7{
+        display: flex;
+       justify-content: space-around;
+       text-align: center;
+       color: #ababab;
+       padding: 80px 30px 80px 100px;
+
+       img{
+        cursor: pointer;
+        transition: 2s;
+
+       }
+
+       img:hover{
+        transform: scale(1.1);
+        filter:
+         drop-shadow(0 0 20px #fff);
+       }
+
+       li{
+        padding: 10px 0px 0px 0px;
+       }
+       
+
+
+    }
+}

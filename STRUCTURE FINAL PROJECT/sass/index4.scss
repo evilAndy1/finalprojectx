@@ -1,0 +1,36 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"); // стороннее обнуление
+@import "./utils/root"; // группировка стилей (mixin, root)
+@import "./utils/App"; // собственное обнуление
+@import "./components/Main/main4";
+
+html,
+body{
+    background-color: var(--bg-color-1);
+    width: 100%;
+    font-family: aire;
+    
+}
+@media only screen and (max-width: 431px) {
+    main {
+        .list1 {
+            margin-top: 100px;
+            margin-bottom: 100px; 
+
+            ul {
+                flex-direction: column; 
+                gap: 30px; 
+
+                li {
+                    font-size: 24px; 
+                    margin-top: 15px; 
+                }
+            }
+
+            h1 {
+                font-size: 24px; 
+                margin-right: 0; 
+                text-align: center; 
+            }
+        }
+    }
+}
